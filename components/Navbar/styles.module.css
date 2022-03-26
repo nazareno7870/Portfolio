@@ -1,0 +1,40 @@
+.navbar {
+    background-color: var(--primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+.menu {
+    width: 100%;
+    background-color: var(--secondary);
+    height: calc(100vh - 60px);
+    z-index: 20;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.menu>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+}
+
+.menu>ul>li {
+    width: 100%;
+    text-align: start;
+    padding: 20px;
+}
+
+.menu>ul>li>a {
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    position: relative;
+}
