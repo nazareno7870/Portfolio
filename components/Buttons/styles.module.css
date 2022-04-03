@@ -1,0 +1,16 @@
+.github,.view{
+    background-color: rgb(63 29 83);
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px ;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+}
+.view{
+    background-color: rgba(34, 40, 89, 1);
+}

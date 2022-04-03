@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="175.345 157.908 149.822 173.568" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Bungee Shade">@import url(https://fonts.googleapis.com/css2?family=Bungee+Shade%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+  <path class="st0" d="M 47.535 64.546 L 25.075 50.936 L 25.075 42.306 L 47.535 28.696 L 47.535 38.956 L 33.885 46.646 L 47.535 54.346 L 47.535 64.546" style="clip-rule: evenodd; fill-rule: evenodd; fill: rgb(160, 41, 41); stroke-linejoin: round;" transform="matrix(1.969816, 0, 0, 2.532943, 125.952065, 132.262924)"/>
+  <path class="st0" d="M 78.674 54.474 L 92.324 46.774 L 78.674 39.084 L 78.674 28.824 L 101.134 42.434 L 101.134 51.064 L 78.674 64.674 L 78.674 54.474 Z" style="clip-rule: evenodd; fill-rule: evenodd; fill: rgb(160, 41, 41); stroke-linejoin: round;" transform="matrix(1.969816, 0, 0, 2.532943, 125.952065, 132.262924)"/>
+  <text style="fill: rgb(53, 35, 88); font-family: &quot;Bungee Shade&quot;; font-size: 68px; font-weight: 700; white-space: pre;" x="221.752" y="269.218">N</text>
+</svg>

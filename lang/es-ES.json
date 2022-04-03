@@ -1,0 +1,26 @@
+{
+    "language": "es",
+
+    "index.projects": "Proyectos 💻",
+
+    "header.info1":"Soy un desarrollador Full Stack Javascript",
+    "header.info2":"Este es mi portfolio. ¡Te invito a conocerme un poco más!",
+
+    "about.title":"Acerca de Mi 🧔",
+    "about.p1":"Soy un apasionado en general. Siempre me gustó hacer las cosas con dedicación y lo mejor posible, fui aprendiendo en el camino y mejorando mis habilidades día a día.",
+    "about.p2":"Hace un año empecé esta carrera para convertirme en un desarrollador Full Stack Javascript y al día de hoy creo que es una de las mejores cosas que hice en mi vida. Disfruto mucho de programar todos los dias.",
+    "about.p3":"Tengo más de 10 años de experiencia trabajando y liderando equipos, siempre con respeto y empatía. Trabajar en equipo siempre es más fácil y eso lo he aprendido a lo largo de mi vida laboral.",
+    "about.p4":"Además de la programación, soy un amante del deporte y de la música. Una parte de cada una de esas cosas en mi vida diaria me transforma en una persona feliz y motivada.",
+
+    "experience.title":"Experiencia 💼",
+
+    "contact.title":"Contacto 📝",
+
+    "navBar.home":"Inicio 🏠",
+    "aside.p1":"Este es mi portfolio.",
+    "aside.p2":"¡Te invito a conocerme un poco más!",
+
+    "projects.showMore":"Mostrar Mas",
+    "projects.description":"Descripción",
+    "projects.showless":"Mostrar Menos"
+}

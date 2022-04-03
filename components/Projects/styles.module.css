@@ -1,0 +1,142 @@
+.card_project {
+    position: relative;
+    margin-bottom: 80px;
+    position: relative;
+    width: 98%;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.302);
+    flex-basis: 1;
+}
+
+.card_project h2 {
+    margin-bottom: 10px;
+}
+
+.title {
+    position: absolute;
+    top: -50px;
+    background-color: rgb(29, 51, 83);
+    width: 100%;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.302);
+    z-index: -1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.title h2 {
+    font-size: 1.2rem;
+    margin-top: 14px;
+}
+
+.sliderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.sliderContainer > div,.sliderContainer > div>div{
+    border-radius: 20px;
+}
+.description, .deploy, .stack {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.deploy, .stack {
+    border-top: 2px solid #e6e6e6;
+    width: 80%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    transition: all 1s;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #e6e6e6;
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.description h5, .deploy h5, .stack h5 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(123, 123, 123);
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+.description h6, .deploy h6, .stack h6{
+    font-weight: 400;
+    letter-spacing: 0.5px;
+} 
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    width: 90%;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+.show h5{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0;
+}
+.show{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+.show>span{
+    transform: rotate(0deg);
+    transition: all 1s;
+}
+.show.active>span{
+    transform: rotate(180deg);
+}
+.showCard{
+    background-color: rgb(63 29 83);
+    color: white;
+    cursor: pointer;
+    border-radius: 0 0 20px 20px;
+    margin-top: 20px;
+}
+.showCard > span{
+    filter: invert(100%) sepia(0%) saturate(1656%) hue-rotate(335deg) brightness(107%) contrast(107%);
+}
+@media (min-width: 1000px) {
+    .section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1400px) {
+    .section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

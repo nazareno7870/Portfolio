@@ -1,0 +1,26 @@
+{
+    "language": "en",
+
+    "index.projects": "Projects 💻",
+
+    "header.info1":"I'm a Full Stack Javascript developer",
+    "header.info2":"This is my portfolio. I invite you to get to know me a little more!",
+
+    "about.title":"About me 🧔",
+    "about.p1":"I am passionate in general. I have always liked to do things with dedication and to the best of my ability, I have been learning along the way and improving my skills day by day.",
+    "about.p2":"A year ago I started this career to become a Full Stack Javascript developer and to this day I think it's one of the best things I've done in my life. I enjoy them very much.",
+    "about.p3":"I have more than 10 years of experience working and leading teams, always with respect and empathy. Working in a team is always easier and I have learned that throughout my working life.",
+    "about.p4":"In addition to programming, I am a lover of sports and music. A share of each of those things in my daily life transforms me into a happy and motivated person.",
+
+    "experience.title":"Experience 💼",
+
+    "contact.title":"Contact 📝",
+
+    "navBar.home":"Home 🏠",
+    "aside.p1":"This is my portfolio.",
+    "aside.p2":"I invite you to get to know me a little more!",
+
+    "projects.showMore":"Show more",
+    "projects.description":"Description",
+    "projects.showless":"Show less"
+}
