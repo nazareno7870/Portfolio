@@ -11,8 +11,8 @@ const Experience = ({ lang }) => {
                         <h2>{lang['experience.title']}</h2>
                     </div>
                     {
-                        experience.map(({ empresa, puesto, desde, modalidad, logo }) => (
-                            <div className={styles.experience}>
+                        experience.map(({ empresa, puesto, desde, modalidad, logo },index) => (
+                            <div className={styles.experience} key={index}>
                                 <div className={styles.logo}>
                                     <img src={logo} alt={empresa} />
                                 </div>
@@ -31,8 +31,8 @@ const Experience = ({ lang }) => {
                         <h2>{lang['experience.title']}</h2>
                     </div>
                     {
-                        experiencias.map(({ empresa, puesto, desde, modalidad, logo }) => (
-                            <div className={styles.experience}>
+                        experiencias.map(({ empresa, puesto, desde, modalidad, logo },index) => (
+                            <div className={styles.experience} key={index}>
                                 <div className={styles.logo}>
                                     <img src={logo} alt={empresa} />
                                 </div>
