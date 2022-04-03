@@ -1,7 +1,7 @@
 require("dotenv").config();
 const nodemailer = require("nodemailer");
 
-export default (req, res) => {
+export default function handler(req, res){
 
   const { name, email, text } = req.body;
 
@@ -25,14 +25,11 @@ export default (req, res) => {
 
   transporter.sendMail(mailOption, (err, data) => {
     if (err) {
-      console.log(err);
       res.send("error" + JSON.stringify(err));
     } else {
-      console.log("mail send");
       res.send("success");
     }
 });
 
-  console.log(name, email, text);
   res.send("success");
 };
