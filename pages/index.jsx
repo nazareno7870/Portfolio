@@ -11,7 +11,9 @@ import Stack from '../components/Stack/Stack'
 import Aside from '../components/Aside/Aside'
 import EN from '../lang/en-EN.json'
 import ES from '../lang/es-ES.json'
+import Logo from '../public/assets/Logo.svg'
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Home() {
   const [lang, setlang] = useState(EN);
@@ -28,8 +30,18 @@ export default function Home() {
         </Head>
 
         <Header lang={lang} />
+        
+        <div className={styles.logoContainer}>
+          <Image
+            src={Logo}
+            alt="Logo Nazareno del Río"
+            className={styles.logo}
+            width={300}
+          />
+        </div>
 
         <main className={styles.container}>
+
           <AboutMe lang={lang} />
 
           <div className={styles.projects} id="projects">
@@ -47,7 +59,7 @@ export default function Home() {
         <Navbar lang={lang} setlang={setlang} />
       </div>
 
-      <Aside lang={lang} setlang={setlang}/>
+      <Aside lang={lang} setlang={setlang} />
 
 
     </>
