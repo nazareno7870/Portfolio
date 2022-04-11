@@ -1,7 +1,25 @@
 {
   "proyectos": [
     {
-      "id": 1,
+      "id": 10,
+      "name": "Challenge We Remote",
+      "description": "Challenge propuesto por We Remote de Front End.",
+      "repo": "https://github.com/nazareno7870/frontend-dev-challenge-weRemote",
+      "view": "https://frontend-challenge-weremote.netlify.app/",
+      "pics": ["https://github.com/nazareno7870/Portfolio/blob/main/public/assets/Challenge-mobile.jpg?raw=true",
+      "https://github.com/nazareno7870/Portfolio/blob/main/public/assets/Challenge-mobile2.jpg?raw=true",
+      "https://github.com/nazareno7870/Portfolio/blob/main/public/assets/Challenge-mobile3.jpg?raw=true"],
+      "stack": [
+        "HTML5",
+        "CSS",
+        "JS",
+        "REACT",
+        "FIGMA"
+      ],
+      "deploy": "NETLIFY"
+    },
+    {
+      "id": 9,
       "name": "Personal Finance",
       "description": "App para controlar los gastos personales",
       "repo": "https://github.com/nazareno7870/personal_finance",
@@ -26,7 +44,7 @@
       "deploy": "NETLIFY - HEROKU"
     },
     {
-      "id": 2,
+      "id": 8,
       "name": "Datapokemon",
       "description": "Información de todos los pokemones. Juegos, estadísticas, tipos, ventajas y desventajas.",
       "repo": "https://github.com/nazareno7870/pokedex-app#getting-started",
@@ -47,7 +65,7 @@
       "deploy": "VERCEL"
     },
     {
-      "id": 3,
+      "id": 7,
       "name": "Imgwide",
       "description": "Red social para subir imágenes e interactuar con otros usuarios.",
       "repo": "https://github.com/nazareno7870/Imgwide-App",
@@ -73,7 +91,7 @@
       "deploy": "NETLIFY - HEROKU"
     },
     {
-      "id": 4,
+      "id": 6,
       "name": "Interactive comments",
       "description": "Sección de comentarios para interactuar con otros usuarios.",
       "repo": "https://github.com/nazareno7870/11-Interactive-Comments-Section",
@@ -113,7 +131,7 @@
       "deploy": "NETLIFY"
     },
     {
-      "id": 6,
+      "id": 4,
       "name": "Fylo data storage",
       "description": "Widget para visualizar el uso del almacenamiento.",
       "repo": "https://github.com/nazareno7870/9-Fylo-Data-Storage",
@@ -130,7 +148,7 @@
       "deploy": "NETLIFY"
     },
     {
-      "id": 7,
+      "id": 3,
       "name": "Interactive pricing",
       "description": "Componente para la selección del plan y la visualización del importe a pagar.",
       "repo": "https://github.com/nazareno7870/8-Interactive-Pricing-Component",
@@ -147,7 +165,7 @@
       "deploy": "NETLIFY"
     },
     {
-      "id": 8,
+      "id": 2,
       "name": "Tip Calculator App",
       "description": "Calculadora de propinas.",
       "repo": "https://github.com/nazareno7870/7-Tip-Calculator-App",
@@ -164,7 +182,7 @@
       "deploy": "NETLIFY"
     },
     {
-      "id": 9,
+      "id": 1,
       "name": "Time tracking dashboard",
       "description": "Panel de control para visualizar las actividades periódicas.",
       "repo": "https://github.com/nazareno7870/6-Time-tracking-dashboard",
