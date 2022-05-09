@@ -1,6 +1,23 @@
 {
   "projects": [
     {
+      "id": 11,
+      "name": "Tic Tac Toe",
+      "description": "Classic Tic Tac Toe game",
+      "repo": "https://github.com/nazareno7870/TicTacToe",
+      "view": "https://tictactoe-ndr.netlify.app/",
+      "pics": ["https://raw.githubusercontent.com/nazareno7870/TicTacToe/main/TicTacToe1.jpg",
+      "https://raw.githubusercontent.com/nazareno7870/TicTacToe/main/TicTacToe2.jpg"],
+      "stack": [
+        "HTML5",
+        "CSS",
+        "JS",
+        "REACT",
+        "TYPESCRIPT"
+      ],
+      "deploy": "NETLIFY"
+    },
+    {
       "id": 10,
       "name": "Challenge We Remote",
       "description": "Challenge proposed by We Remote from Front End.",
